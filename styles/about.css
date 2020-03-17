@@ -1,0 +1,82 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open sans";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open sans";
+  src: url("../fonts/OpenSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+.about {
+  width: 100%;
+  background-color: #f2f9ff; }
+  .about__container {
+    margin: 0 auto;
+    padding: 74px 20px; }
+    @media (min-width: 768px) {
+      .about__container {
+        width: 700px;
+        padding: 148px 34px; } }
+    @media (min-width: 1024px) {
+      .about__container {
+        width: 900px;
+        padding: 148px 62px; } }
+    @media (min-width: 1600px) {
+      .about__container {
+        width: 1400px;
+        padding: 148px 100px; } }
+  .about__title {
+    margin: 0 auto 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    line-height: 24px;
+    font-weight: 600; }
+    @media (min-width: 1024px) {
+      .about__title {
+        width: 754px;
+        font-size: 32px;
+        line-height: 48px; } }
+  .about__text {
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #6c788b; }
+    @media (min-width: 1024px) {
+      .about__text {
+        width: 754px;
+        font-size: 24px;
+        line-height: 36px; } }
+
+/*# sourceMappingURL=about.css.map */
