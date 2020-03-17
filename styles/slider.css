@@ -70,13 +70,23 @@ h1 {
   .slider__photo-container {
     border-radius: 0 100px;
     overflow: hidden;
+    width: 300px;
+    height: 295px;
     margin: 0 auto; }
     @media (min-width: 768px) {
       .slider__photo-container {
+        width: 350px;
+        height: 345px;
         border-radius: 130px 0 0; } }
     @media (min-width: 1024px) {
       .slider__photo-container {
+        width: 500px;
+        height: 495px;
         border-radius: 200px 0 0; } }
+    @media (min-width: 1440px) {
+      .slider__photo-container {
+        width: 687px;
+        height: 680px; } }
   .slider__photo {
     width: 100%;
     height: auto;
