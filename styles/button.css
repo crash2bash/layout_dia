@@ -2,6 +2,18 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400; }
 
+.show {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0); }
+
+.hide {
+  -webkit-transform: translate(0, -1000px);
+          transform: translate(0, -1000px); }
+  @media (min-width: 768px) {
+    .hide {
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0); } }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
@@ -57,10 +69,14 @@ h1 {
   .button--header {
     width: 226px;
     height: 50px;
+    margin: 0 auto 30px;
     padding: 13px 60px;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     line-height: 22px;
     font-weight: 600; }
+    @media (min-width: 768px) {
+      .button--header {
+        margin: 0; } }
 
 /*# sourceMappingURL=button.css.map */
