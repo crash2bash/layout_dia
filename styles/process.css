@@ -178,7 +178,8 @@ h1 {
       margin-bottom: 20px; }
       @media (min-width: 768px) {
         .process__cart-item--third {
-          margin-bottom: 0; } }
+          margin-bottom: 0;
+          z-index: 2; } }
     @media (min-width: 1440px) {
       .process__cart-item--fourth {
         margin-top: -132px; } }

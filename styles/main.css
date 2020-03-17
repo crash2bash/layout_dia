@@ -1121,7 +1121,8 @@ h1 {
       margin-bottom: 20px; }
       @media (min-width: 768px) {
         .process__cart-item--third {
-          margin-bottom: 0; } }
+          margin-bottom: 0;
+          z-index: 2; } }
     @media (min-width: 1440px) {
       .process__cart-item--fourth {
         margin-top: -132px; } }
@@ -1204,6 +1205,156 @@ h1 {
     transition: 0.3s ease-in-out; }
     .process__cart-link:hover, .process__cart-link:focus, .process__cart-link:active {
       color: #6c788b; }
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+.show {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0); }
+
+.hide {
+  -webkit-transform: translate(0, -1000px);
+          transform: translate(0, -1000px); }
+  @media (min-width: 768px) {
+    .hide {
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0); } }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open sans";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open sans";
+  src: url("../fonts/OpenSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+.approach {
+  width: 90%;
+  margin-left: auto;
+  background-color: #ff9c8e;
+  border-radius: 200px 0 0 200px;
+  color: #fff; }
+  @media (min-width: 1600px) {
+    .approach {
+      min-width: 1479px; } }
+  .approach__container {
+    width: 1275px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: auto; }
+  .approach__text-wrapper {
+    -ms-flex-item-align: center;
+        align-self: center; }
+  .approach__title {
+    margin: 0 0 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  .approach__list-title {
+    width: 362px;
+    margin: 0 0 32px;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600; }
+  .approach__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 362px; }
+  .approach__item {
+    width: 362px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 15px;
+    line-height: 24px; }
+    .approach__item--outer {
+      margin-bottom: 64px; }
+  .approach__icon {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #fff; }
+    .approach__icon::after {
+      content: "";
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      background-image: url(../images/speaker.svg); }
+    .approach__icon--second::after {
+      width: 20px;
+      height: 22px;
+      background-image: url(../images/calendar.svg); }
+    .approach__icon--third::after {
+      width: 18px;
+      height: 22px;
+      background-image: url(../images/document.svg); }
+  .approach__text {
+    width: 264px;
+    margin: 0; }
+  .approach__image-wrapper {
+    width: 687px;
+    height: 680px;
+    margin-top: 296px;
+    border-radius: 200px 0 0;
+    overflow: hidden; }
+  .approach__image {
+    width: 100%;
+    height: auto;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
+    .approach__image:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
 
 html {
   font-family: "Open sans", sans-serif;
