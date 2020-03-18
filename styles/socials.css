@@ -1,0 +1,64 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+.show {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0); }
+
+.hide {
+  -webkit-transform: translate(0, -1000px);
+          transform: translate(0, -1000px); }
+  @media (min-width: 768px) {
+    .hide {
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0); } }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open sans";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open sans";
+  src: url("../fonts/OpenSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+.socials {
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .socials {
+      margin: 0; } }
+  .socials__link-image {
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
+    .socials__link-image:hover {
+      fill: #d2ebff; }
+
+/*# sourceMappingURL=socials.css.map */
