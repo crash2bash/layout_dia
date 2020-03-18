@@ -88,6 +88,7 @@ h1 {
         width: 687px;
         height: 680px; } }
   .slider__photo {
+    opacity: 0;
     width: 100%;
     height: auto;
     -webkit-transition: 0.3s ease-in-out;
@@ -95,6 +96,8 @@ h1 {
     .slider__photo:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
+    .slider__photo--active {
+      opacity: 1; }
   .slider__nav-container {
     width: 250px;
     margin: 0 0 30px 35px;

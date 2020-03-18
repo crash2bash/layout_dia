@@ -89,10 +89,10 @@ h1 {
       justify-self: center; } }
   @media (min-width: 1024px) {
     .header__nav {
-      margin-left: 100px; } }
+      margin: 0 auto; } }
   @media (min-width: 1440px) {
     .header__nav {
-      margin-left: 150px;
+      margin: 0 0 0 150px;
       justify-self: auto; } }
   @media (min-width: 1600px) {
     .header__nav {
