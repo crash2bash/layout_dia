@@ -78,5 +78,16 @@ h1 {
     @media (min-width: 768px) {
       .button--header {
         margin: 0; } }
+  .button--apply {
+    position: relative;
+    width: 226px;
+    height: 56px;
+    margin: 0 auto;
+    padding: 15px 90px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    z-index: 1; }
 
 /*# sourceMappingURL=button.css.map */
