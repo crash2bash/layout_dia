@@ -2463,15 +2463,20 @@ h1 {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     @media (min-width: 768px) {
       .footer__navigation-list {
         width: 637px;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between; } }
+  .footer__navigation-item {
+    margin-left: 20px; }
+    @media (min-width: 768px) {
+      .footer__navigation-item {
+        margin-left: 0; } }
   .footer__navigation-link {
     display: block;
     position: relative;
