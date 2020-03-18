@@ -2530,4 +2530,40 @@ body {
   margin: 0 auto;
   background-color: #f2f9ff; }
 
+.up-arrow {
+  -webkit-transform: translateY(-1000px);
+          transform: translateY(-1000px);
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  background-color: #008aff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out; }
+  .up-arrow::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 20px;
+    height: 24px;
+    background-image: url(../images/up-arrow.svg); }
+  .up-arrow:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-box-shadow: 0 6px 14px rgba(37, 41, 49, 0.3);
+            box-shadow: 0 6px 14px rgba(37, 41, 49, 0.3); }
+
+.show {
+  -webkit-transform: translateY(0);
+          transform: translateY(0); }
+
 /*# sourceMappingURL=main.css.map */
