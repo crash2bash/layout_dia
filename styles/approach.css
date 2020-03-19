@@ -92,7 +92,7 @@ h1 {
         max-width: 1275px; } }
     @media (min-width: 1600px) {
       .approach__container {
-        max-width: 80%; } }
+        max-width: 81%; } }
   .approach__text-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -240,6 +240,10 @@ h1 {
       .approach__image-wrapper {
         width: 687px;
         height: 680px; } }
+    @media (min-width: 1921px) {
+      .approach__image-wrapper {
+        margin-right: 150px;
+        border-radius: 200px 50px 0 0; } }
   .approach__image {
     width: 100%;
     height: auto;

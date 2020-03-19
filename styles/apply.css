@@ -86,7 +86,9 @@ h1 {
       .apply__text {
         width: 764px; } }
   .apply__pills-container {
-    position: relative; }
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto; }
   .apply__pill {
     -webkit-transform: rotate(-65deg);
             transform: rotate(-65deg);
